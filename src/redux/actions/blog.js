@@ -4,8 +4,8 @@ import {
     GET_BLOG_LIST_FAIL,
     GET_BLOG_SUCCESS,
     GET_BLOG_FAIL,
-    GET_BLOG_PAGINATION_RESULTS_SUCCESS,
-    GET_BLOG_PAGINATION_RESULTS_FAIL,
+    GET_BLOG_LIST_CATEGORIES_SUCCESS,
+    GET_BLOG_LIST_CATEGORIES_FAIL,
 } from './types'
 
 export const get_blog_list = () => async dispatch => {
